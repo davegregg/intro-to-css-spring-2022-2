@@ -1,0 +1,17 @@
+article > h1 {
+    background-color: white;
+}
+
+h1 {
+    color: rgb(0, 205, 150);
+    background-color: rgb(255, 240, 158);
+}
+
+p.author-bio, #page-title {
+    font-style: italic;
+}
+
+#page-title {
+    background-color: cornflowerblue;
+}
+
