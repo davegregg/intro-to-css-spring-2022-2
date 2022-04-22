@@ -1,10 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    --primary-color: rgb(255, 175, 204);
+    --accent-color: rgb(162, 210, 255);
+    --white: rgb(227, 227, 227);
+    --black: rgb(34, 34, 34);
+    --alert: rgb(253, 255, 182);
+    --danger: rgb(249, 65, 68);
+}
+
 article > h1 {
-    background-color: white;
+    font-size: 1.25rem;
+    background-color: var(--white);
+    text-decoration: var(--accent-color) wavy underline;
 }
 
 h1 {
     color: rgb(0, 205, 150);
-    background-color: rgb(255, 240, 158);
+    background-color: var(--black);
+}
+
+p {
+    font-size: 1rem;
 }
 
 p.author-bio, #page-title {
@@ -12,6 +32,22 @@ p.author-bio, #page-title {
 }
 
 #page-title {
-    background-color: cornflowerblue;
+    background-color: var(--primary-color);
+    text-shadow: 0px 0px 0.35rem var(--white);
+    color: var(--white);
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.25rem solid var(--black);
+    width: min-content;
+    margin: 2rem auto;
 }
+
+.cross-out {
+    text-decoration: line-through;
+}
+
+mark {
+    background-color: pink;
+}
+
 
